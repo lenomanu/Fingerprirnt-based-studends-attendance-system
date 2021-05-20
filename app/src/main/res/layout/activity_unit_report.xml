@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="#1B2663"
+    android:layout_height="match_parent"
+    tools:context=".UnitReportActivity">
+
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/date"
+        android:onClick="pickdate"
+        android:textColor="#1B2663"
+        android:textAllCaps="false"
+        android:fontFamily="@font/aclonica"
+        android:text="Pick date"
+        android:background="@drawable/round_btn"
+
+        />
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="searchdate"
+        android:textColor="#1B2663"
+        android:fontFamily="@font/aclonica"
+        android:text="Search"
+        android:background="@drawable/round_btn"
+
+        />
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="eligible"
+        android:textColor="#1B2663"
+        android:fontFamily="@font/aclonica"
+        android:text="Eligible for exam"
+        android:background="@drawable/round_btn"
+
+        />
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="noteligible"
+        android:textColor="#1B2663"
+        android:fontFamily="@font/aclonica"
+        android:text="No Eligible for exam"
+        android:background="@drawable/round_btn"
+
+        />
+
+</LinearLayout>

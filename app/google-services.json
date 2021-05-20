@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "448846821629",
+    "project_id": "kisii-attend",
+    "storage_bucket": "kisii-attend.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:448846821629:android:91fc6a644ffc2e9894a694",
+        "android_client_info": {
+          "package_name": "com.finix.kisiiattend"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "448846821629-p171jjd52s422q5eqfmr8nd2n6i6rhvd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAeY8b_3OVPn7ypsUvFPCgFy0C5UavdHgc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "448846821629-p171jjd52s422q5eqfmr8nd2n6i6rhvd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_margin="5dp"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/image"
+            android:src="@drawable/unit"/>
+        <LinearLayout
+            android:id="@+id/imageview"
+            android:layout_toEndOf="@id/image"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Unit Code"
+                android:textAllCaps="true"
+                android:fontFamily="@font/aclonica"
+                android:id="@+id/unitCode"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:gravity="right"
+                android:layout_width="wrap_content"
+                android:id="@+id/unitTimes"
+                android:text="time"
+                android:textAllCaps="false"
+                android:fontFamily="@font/aclonica"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/unitName"
+            android:text="Unit  name "
+            android:textAllCaps="false"
+            android:layout_below="@id/imageview"
+            android:fontFamily="@font/aclonica"
+            android:textColor="@color/black"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:layout_height="wrap_content"/>
+
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

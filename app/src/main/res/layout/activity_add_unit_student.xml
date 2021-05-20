@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fami"
+    android:layout_margin="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddUnitStudent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:textSize="30sp"
+            android:text="Enroll unit below"
+            android:fontFamily="@font/aclonica"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:layout_marginBottom="25dp"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/error"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:textSize="20sp"
+            android:fontFamily="@font/aclonica"
+            android:textAlignment="center"
+            android:textColor="#F31706" />
+
+        <EditText
+            android:id="@+id/unitCodex"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:hint="Input Unit code" />
+
+        <EditText
+            android:id="@+id/unitPasswordx"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:hint="Enter enrolment password" />
+        <Button
+            android:id="@+id/addUnitBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:fontFamily="@font/aclonica"
+            android:text="Add Unit"
+            android:textAllCaps="false" />
+
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/addUnit"
+        android:enabled="true"
+        android:icon="@drawable/ic_add"
+        android:title="Add Unit"
+        app:cnb_backgroundColor="#fff"
+        app:cnb_iconTintMode="src_in"
+         />
+    <item
+        android:id="@+id/profile"
+        android:enabled="true"
+        android:icon="@drawable/ic_profile"
+        android:title="Profile"
+        app:cnb_backgroundColor="#fff"
+        app:cnb_iconTintMode="src_in"
+        />
+    <item
+        android:id="@+id/logOutBtn"
+        android:enabled="true"
+        android:icon="@drawable/ic_logout"
+        android:title="Log out"
+        app:cnb_backgroundColor="#fff"
+        app:cnb_iconTintMode="src_in"
+        />
+
+</menu>
